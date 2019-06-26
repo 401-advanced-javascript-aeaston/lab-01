@@ -1,13 +1,15 @@
 
-# LAB - 
+# LAB 
+
+[![Build Status](https://travis-ci.com/401-advanced-javascript-aeaston/lab-01.svg?branch=master)](https://travis-ci.com/401-advanced-javascript-aeaston/lab-01)- 
 
 ## Project Name - Lab-01
 
 ### Author: Adrienne, with some mob programming with class for setup
 
 ### Links and Resources
-* [submission PR](http://xyz.com)
-* [travis][![Build Status](https://travis-ci.com/401-advanced-javascript-aeaston/lab-01.svg?branch=master)](https://travis-ci.com/401-advanced-javascript-aeaston/lab-01)
+* [submission PR] https://github.com/401-advanced-javascript-aeaston/lab-01/pull/2
+* [travis] 
 
 * [back-end](http://xyz.com) (when applicable)
 * [front-end](http://xyz.com) (when applicable)
