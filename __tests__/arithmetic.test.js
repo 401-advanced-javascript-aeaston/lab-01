@@ -73,10 +73,9 @@ describe('division tests', () => {
   });
 
   it('throws error if dividing by zero', () => {
-    expect(arithmetic.divide(3, 0)).toThrow();
     let num1 = randomNum;
     let num2 = 0;
-    let results = arithmetic.divide(num1, num2);
+    let results = () => arithmetic.divide(num1, num2);
     expect(results).toThrow('You cannot divide by zero');
   })
 })
