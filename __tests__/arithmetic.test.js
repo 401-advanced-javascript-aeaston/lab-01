@@ -20,7 +20,7 @@ describe('addition tests', () => {
     let results = arithmetic.add(num1, num2);
     expect(results).toBeNull(); 
   });
-})
+});
 
 describe('subtraction tests', () => {
   it('should subtract numbers as expected', () => {
@@ -37,7 +37,7 @@ describe('subtraction tests', () => {
     let results = arithmetic.subtract(num1, num2);
     expect(results).toBeNull();
   });
-})
+});
 
 describe('multiply tests', () => {
   it('should multiple numbers as expected', () => {
@@ -54,7 +54,7 @@ describe('multiply tests', () => {
     let results = arithmetic.multiply(num1, num2);
     expect(results).toBeNull();
   });
-})
+});
 
 describe('division tests', () => {
   it('should divide numbers as expected', () => {
@@ -77,5 +77,5 @@ describe('division tests', () => {
     let num2 = 0;
     let results = () => arithmetic.divide(num1, num2);
     expect(results).toThrow('You cannot divide by zero');
-  })
-})
+  });
+});
